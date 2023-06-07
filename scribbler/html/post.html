@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+  <link href="https://fontawesome.com/v5/icons/edit?f=classic&s=solid&pc=%23ffffff">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../styles/post.css">
+  
+  <title></title>
+  
+
+
+  <script src="../scripts/post.js"></script>
+  <script src="../scripts/index.js"></script>
+  
+</head>
+<body>
+  <header>
+      <div id="scribbler">
+        <p class="styling">Scribbler</p>
+        <p>Explore, Imagine, Create</p>
+      </div>
+      <div id="signlog">
+        <button class="btn" name="btnn" onclick="signup()">Sign Up</button>
+        <button class="btn" name="log" onclick="signin()">Sign In</button>
+      </div>
+    </header>
+
+    <div id="container" class="abcd">
+      <center><h2 class="post-title editable" tabindex="0">Everything you should know about 'module' & require in Node.js</h2></center>
+      <div class="author">
+        <button class="edit-button" onclick="editfunction(event)">
+          <h1 class="editt"></h1>
+            <span class="button-text">Edit</span> <i class="fas fa-edit" style="color: #ffffff;"></i>
+        </button>
+      </div>
+      <h3>Srishti Gupta</h3>
+          <p class="post-text editable">Node.js has a vast ecosystem of modules and packages available through the npm (Node Package Manager) registry. This rich ecosystem provides developers with a wide range of libraries and frameworks for various purposes, including web application frameworks like Express.js, Hapi.js, or Koa.js, which simplify the process of building robust and scalable web servers. Additionally, Node.js supports modules for database connectivity, such as MongoDB, MySQL, or PostgreSQL, allowing developers to seamlessly interact with different database systems.Another significant advantage of Node.js is its ability to easily share code between the front-end and back-end, thanks to the use of JavaScript on both sides. This facilitates code reusability and reduces the learning curve for developers working on full-stack projects. Moreover, Node.js provides excellent support for asynchronous programming, leveraging callbacks, promises, or async/await syntax to handle asynchronous operations effectively, avoiding callback hell and simplifying code maintenance.Node.js is highly scalable and can handle a large number of concurrent connections with relatively low resource consumption. It is often used in microservices architectures and is an ideal choice for building applications that need to scale horizontally by adding more servers or containers. The ability to handle a massive number of concurrent connections efficiently makes Node.js a suitable choice for real-time applications, such as instant messaging platforms or collaborative tools.Furthermore, Node.js is cross-platform, supporting major operating systems like Windows, macOS, and Linux. This cross-platform compatibility enables developers to build and deploy Node.js applications on a wide range of environments, making it highly flexible and adaptable to various deployment scenarios.</p>
+</div>
+    <div class="like">
+      <button class="like-button" onclick="likefunction()">
+          <h1 class="editt"></h1>
+            <span class="buttonlike-text">Like</span> <i class="fa-solid fa-thumbs-up" style="color: #ffffff;"></i>
+        </button></br></br></br>
+        
+    </div>
+
+    <div class="fgh">
+      <p class="like-class"></p>
+    </div>
+
+
+    <div class="comment-box"></br></br></br>
+  <textarea class="comment-input" placeholder="Leave a comment..." rows="5" cols="132"></textarea>
+  <div class="last-div">
+  <button class="comment-button" onclick="submitComment()">Comment</button>
+</div>
+</br></br></br></br>
+<div class="all-comments">
+  <div>
+  </div>
+  <!-- Existing comments will be displayed here -->
+</div>
+
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,275 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+#title #heading {
+  font-family: "Montez", cursive;
+  color: blue;
+  font-size: 24px;
+  margin: 0;
+}
+#title #sub-heading {
+  font-family: "Ubuntu Mono", monospace;
+  margin: 0;
+}
+
+#button-wrapper button {
+  background-color: blue;
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+    background-color: rgb(0, 0, 0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+  
+ 
+  .modal-content {
+    background-color: #ffffff;
+    margin: 10% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; 
+    border-radius: 0;
+  }
+  .modal-content .modal-header{
+    margin: 0;
+  }
+   
+  .close-icon {
+    float: right;
+    cursor: pointer;
+  }
+  .not-member {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .not-member span {
+    color: blue;
+    cursor: pointer;
+  }
+ 
+
+body{
+  margin:0px;
+  padding:0px;
+  height:100%;
+}
+
+.fgh{
+  margin-left:0px;
+  padding:0px;
+  flex:left;
+  display:inline;
+  float:left;
+}
+
+.like-class{
+  margin-left:0px;
+  padding-left:0px;
+  flex:left;
+  display:inline;
+  float:left;
+}
+
+
+
+.like{
+  margin-left:100px;
+  margin-top:20px;
+  width:15%;
+}
+.styling{
+  font-family: 'Montez', cursive; 
+  margin:10px;
+  padding:5px;
+  font-weight: lighter;
+  color:blue;
+  font-size: 50px;
+}
+p{
+  margin-left:10px;
+  margin-top:0px;
+  padding:2px;
+  font-size: 18px;
+}
+#signlog {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.btn{
+  background-color: blue;
+  color:white;
+  width:80px;
+  height:35px;
+  float:right;
+  margin:5px;
+  padding:5px;
+}
+#sign,#signin{
+  margin:50px;
+  box-sizing: border-box;
+  border:1px solid black;
+  margin-right:50px;
+  padding-right:30px;
+  width:25%;
+}
+#sign,#signin{
+  position: relative;
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  top: 50%;
+  left: 35%;
+  display:none;
+}
+
+#container{
+  box-sizing: border-box;
+  border:1px solid black;
+  left:20%;
+  width:70%;
+  margin-right:0px;
+  margin-left:100px;
+  padding-right:15px;
+}
+p{
+  justify-content: space-between;
+  text-align: justify;
+}
+h3{
+  padding:10px;
+}
+
+.author{
+  float:right;
+  padding-top:10px;
+}
+
+.edit-button{
+  background-color: #f5424e;
+  color:white;
+  width:100%;
+  height:30px;
+  padding-right:60px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    float:right;
+}
+
+.edit-button {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button-text,.buttonlike-text {
+  margin-right: 5px;
+}
+
+
+
+
+
+.like-button,.comment-button {
+  cursor: pointer;
+  background-color: #f5424e;
+  color:white;
+  width:50%;
+  height:50px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    float:left;
+    font-size: 15px;
+    display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom:20px;
+}
+
+.like-button.liked {
+  background-color:#f5424e;
+  color: white;
+}
+
+.button-text {
+  margin-left: 5px;
+}
+
+/*.comment-input{
+  margin-top:30px;
+  margin-left:88px;
+  margin-bottom: 20px;
+}
+
+.comment-button{
+  width:100%;
+  margin-left:10px;
+}*/
+
+.all-comments {
+  background-color: rgba(217, 217, 217, 0.9);
+  padding: 20px;
+
+}
+
+.comment {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.all-comments{
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  
+  margin-left: 90px
+}
+
+
+.comment-input{
+  margin-left:95px;
+  margin-bottom:20px;
+
+}
+
+.comment-button{
+  width:8%;
+  float:left;
+  margin-left:92px;
+}
+
+.like-class {
+  font-size: 18px;
+  margin-top: 10px;
+  color:black;
+  margin-left:0px;
+}
